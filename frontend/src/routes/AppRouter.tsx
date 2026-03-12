@@ -1,16 +1,15 @@
 import { createBrowserRouter } from "react-router-dom"
 import LandingPage from "../pages/LandingPage"
 import RootLayout from "./RootLayout"
+import Login from "../pages/Login"
+import Signup from "../pages/Signup"
 
 
 const AppRouter = createBrowserRouter(
     [
         {
             path: '/',
-            element: 
-            [
-                <RootLayout />
-            ],
+            element: <RootLayout />,
             children: 
             [
                 {
@@ -18,12 +17,16 @@ const AppRouter = createBrowserRouter(
                     element: <LandingPage />
                 }, 
                 {
-                    path: '/Landing',
+                    path: '/Home',
                     element: <LandingPage />
                 },
                 {
-                    path: '/Home',
-                    element: <LandingPage />
+                    path: '/Login',
+                    element: <Login />
+                },
+                {
+                    path: '/Signup',
+                    element: <Signup />
                 },
                 {
                     path: '*',

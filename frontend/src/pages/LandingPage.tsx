@@ -2,7 +2,7 @@ import LandingHero from "../components/LandingHero"
 
 const LandingPage = () => {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col bg-red-200">
             <div className="text-center pt-4"> 
                 <h1 className="text-6xl font-bold"> Welcome to Chirag's Website </h1>
             </div>
