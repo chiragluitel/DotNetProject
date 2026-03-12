@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "z1S/ANb+nVk=",
+  "success": true,
+  "projectFilePath": "/Users/chiragluitel/Documents/Projects/DotNetProject/backend/backend.csproj",
+  "expectedPackageFiles": [
+    "/Users/chiragluitel/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/Users/chiragluitel/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
